@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto Mono';
+    margin: 0;
+    background-size: cover;
+}
+/** HEADER */
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #1B2035;
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+header a:hover{
+    color: #f8f3f6;
+}
+
+/** BANNER-HERO */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),url(imagenes/fondo-banner.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.imagen1{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 100%;
+
+}
+
+.perfil{
+    color: aquamarine;
+}
+
+.icon{
+    color: aquamarine;
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.icon:hover{
+    color: #f8f3f6;
+}
+
+/** SOBRE MI */
+
+.contenedor2{
+    display: flex;
+    background: linear-gradient(to top, rgba(38, 44, 74, 1),rgba(	46, 232, 187, 1));
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mi2{
+    text-align: center;
+    color: black;
+    margin: 0px 20px 20px 20px;
+}
+
+.resaltador{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.datos-personales{
+    text-align: center;
+    margin: 20px;
+}
+
+.Experiencia{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estudios{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/** SKILLS */
+
+.contenedor3{
+    display: flex;
+    background:  linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),url(imagenes/skills-fondo.jpg);
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.skills{
+    display: flex;
+    margin: 10px;
+    line-height: 40px;
+    color: aquamarine;
+}
+
+.button{
+    color: #262c4a;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: #f8f3f6;
+    border: 1px solid #f8f3f6;
+}
+
+/** PORTFOLIO */
+
+
+#portfolio .contenedor4 h1{
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px 12px;
+    color: aquamarine;
+    margin: 15px;
+}
+
+.contenedor4{
+    background-color: #262c4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor4 ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+#portfolio .contenedor4 img{
+    border-radius: 10px;
+    margin: 0px 10px 40px 10px;
+}
+
+/** CONTACTO */
+
+#contacto{
+    background-color: rgb(40,40,40);
+}
+#contacto h1{
+    text-align: center;
+    padding: 20px 12px;
+    margin-top: 0px;
+    color: aquamarine;
+}
+
+#contacto div form h3{
+    color: rgb(200,200,200);
+}
+
+form{
+    width: 100%;
+    max-width: 350px;
+    padding: 2%;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.single-input{
+    position: relative;
+    margin: 30px 0;
+}
+.single-input input{
+    position: relative;
+    bottom: 5px;
+    left: 0;
+    color:rgb(200,200,200);
+    background-color: rgb(40,40,40);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80,80,80);
+    transition: 0.5s ease-in-out;
+}
+
+.input:hover{
+    border-bottom: 2px solid aquamarine;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enviar button{
+    width: 100px;
+    height: 50px;
+    border-radius: 0px;
+    color: #f8f3f6;
+    background-color: rgb(40,40,40);
+    border: 2px solid rgb(200,200,200);
+}
+
+.enviar button:hover{
+    border: 2px solid aquamarine;
+}
+/** FOOTER - PIE DE PAGINA */
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0px;
+    padding: 12px;
+    color: rgb(160,160,160);
+}
+
+footer .contenedor6{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/** RESPONSIVE */
+@media (min-width: 900px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: 18vh;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    
+    .contenedor4 ul{
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .ps1{
+        margin: 20px;
+    }
+
+    #portfolio img{
+        margin: 0;
+    }
+
+    #contacto .contenedor5{
+        display: flex;
+    }
+
+    #contacto .form{
+        text-align: initial;
+        width: 50%;
+        padding: 0px 30px;
+    }
+
+    #contacto .img-container{ 
+        background-image: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75))
+        ,url(imagenes/contacto-fondo-relleno.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        margin: 0px 30px 50px 30px;
+    }
+
+    
+    
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ProyectoCV </title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="imagenes/logo1.png" alt="" height="60px" width="60px"> Brian 
+            </a>
+            <nav>
+                <a href="#banner">Inicio</a>
+                <a href="#sobre-mi">Sobre mi</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <!-- BANNER -->
+    <section id="banner">
+        <div class="contenedor">
+
+            <img class= "imagen1" src="imagenes/Brian edwards.jpg" alt="">
+            
+            <div class="perfil">
+                <h1> Brian Edwards <br> Desarrollador Front-End </h1>
+                <a href="#" class="icon" onclick="Redireccion()"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon" onclick="Redireccion1()"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="icon" onclick="Redireccion2()"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="icon" onclick="Redireccion3()"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="icon" onclick="Redireccion4()"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <script src="funciones.js"></script>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi">
+        <div class="contenedor2">
+            <div class="sobre-mi2">
+                <h1> Sobre mi</h1>
+                <p><strong class="resaltador">Hola! soy brian.</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+            <div class="curriculum">
+                <ul class="datos-personales">
+                    
+                    <strong>fecha de nacimiento</strong>
+                    2-6-1990<br>
+                    <strong>Dirección</strong>
+                    7229 Paddock Way<br>
+                    <strong>Número de telefono</strong>
+                    7229 Paddock Way<br>
+                    <strong>Email</strong>
+                    carlos.robinson@example.com
+                </ul>
+                <ul class="Experiencia">
+                    <h1> Experiencia </h1>
+                    <p> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>  
+                </ul>
+                <ul class="estudios">
+                    <h1> Estudios </h1>
+                    <p> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="contenedor3">
+
+            <h1>Skills</h1>
+            <div class="skills">
+                <ul>
+                    HTML<br>
+                    CSS<br>
+                    JAVASCRIPT<br>
+                    PYTHON
+                </ul>
+                <ul>
+                    CANVAS<br>
+                    WORDPRESS<br>
+                    PAQUETE OFFICE<br>
+                    INGLES<br>
+                </ul>
+            </div>
+            <div>
+                <a href="archivos-descargables/CV-DESARROLLADOR.pdf" download="CV-DESARROLLADOR"><button id="button" class="button"> Descargar CV</button></a>
+            </div>
+        </div>
+        <script src="funciones.js"></script>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="contenedor4">
+            <h1>Portfolio</h1>
+            <ul>
+
+                <div class="ps1">
+                    <a href="#" ><img class="p1" src="imagenes/proyecto1.png" alt="" height="200px" width="300px"></a>
+                </div>
+                <div class="ps1">
+                    <a href="#" ><img class="p2" src="imagenes/proyecto2.webp" alt="" height="200px" width="300px"></a>
+                </div>
+                <div class="ps1">
+                    <a href="#" ><img class="p3" src="imagenes/proyecto3.jpg" alt="" height="200px" width="300px"></a>
+                </div>
+            </ul>
+            <ul>
+
+                <div class="ps1">
+                    <a href="#" ><img class="p4" src="imagenes/proyecto4.jpg" alt="" height="200px" width="300px"></a>
+                </div>
+                <div class="ps1">
+                    <a href="#" ><img class="p5" src="imagenes/proyecto5.jpg" alt="" height="200px" width="300px"></a>
+                </div>
+                <div class="ps1">
+                    <a href="#" ><img class="p6" src="imagenes/proyecto6.webp" alt="" height="200px" width="300px"></a> 
+                </div>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <div class="contenedor5">
+            <div class="img-container"></div>
+            <div class="form">
+
+                <form>
+                    
+                    <h3> Nombre y Apellido</h3>
+                    <div class="single-input">
+                        <input type="text" class="input" id="nombre-apellido" required>
+                    </div>
+                    <h3> Telefono</h3>
+                    <div class="single-input">
+                        <input type="text" class="input" id="Telefono" required>
+                    </div>
+                    <h3> Email </h3>
+                    <div class="single-input">
+                        <input type="text" class="input" id="email" required>
+                    </div>
+                    <div class="enviar">
+                        <button type="submit" > Enviar Contacto </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / PIE DE PAGINA-->
+    <footer>
+        <div class="contenedor6">
+            <p>&copy; Brian Edwards 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
